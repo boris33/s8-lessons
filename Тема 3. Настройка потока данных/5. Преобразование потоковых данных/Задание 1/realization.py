@@ -4,8 +4,7 @@ from pyspark.sql.types import StructType, StructField, DoubleType, StringType, T
 
 # необходимая библиотека с идентификатором в maven
 # вы можете использовать ее с помощью метода .config и опции "spark.jars.packages"
-kafka_lib_id =
-        "org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.0"
+kafka_lib_id ="org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.0"
 
 # настройки security для кафки
 # вы можете использовать из с помощью метода .options(**kafka_security_options)
